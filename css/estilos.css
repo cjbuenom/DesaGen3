@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.Title-Principal{
+    color: aquamarine;
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 55px;
+}
+
+
+.Title-Secundario{
+    color: brown;
+    margin-bottom: 20px;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+
+.Description-text{
+    color: lawngreen;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+
+
+.Title-Page{
+    color: green;
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 55px;
+}
+
+.imagen{
+    width: 20%;
+}
+
+#lista{
+    color: rgb(85, 34, 206);
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 22px; 
+}
+
+#img-description{
+    color: rgb(221, 46, 46);
+    margin-bottom: 30px;
+    font-size: 25px;
+    line-height: 32px;   
+}
+
+figcaption{
+    color: rgb(0, 0, 0);
+    margin-bottom: 12px;
+    font-size: 11px;
+    line-height: 15px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#Desarrollador{
+    color: rgb(43, 55, 223);
+    margin-bottom: 12px;
+    font-size: 11px;
+    line-height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    background: rgb(121, 255, 80);
+    color: rgb(25, 46, 235);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
