@@ -1,3 +1,133 @@
-.cabecera{
-    background-color: blue;
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background:rgba(0, 194, 203, 0.863);  
+}
+
+body{
+    background: rgba(120, 187, 255, 0.8); 
+}
+
+
+.menu-link-btns{
+    display: flex;
+
+}
+
+.btns-menu{
+    padding: 0 1rem;
+    line-height: 70px;
+    height: 70px;
+    display: block;
+    color: white;
+    font-size: 30px;
+    transition: .4s all ease-in-out;
+}
+
+.menu-botones{
+    
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.img-logo{
+    width: 30%;
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 300px;
+  
+}
+
+.imp-principal{
+    width: 80%;
+    height: 300px;
+    margin-left: 10%;
+    margin-right: 25px;
+}
+
+
+
+
+.titulo-section{
+  
+    display:flex ;
+
+    justify-content: space-around;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 100px;
+    line-height: 55px;
+    padding: 4rem 0;
+}
+.contenedor{
+    width: 100%;
+    height: 500px;
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+.item{
+    width: 25%;
+    height: 200px;
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 15px 15px 15px 15px;
+    align-content: space-around;
+    align-items: center;
+    box-shadow: rgba(122, 72, 72, 0.466) 5px 5px;
+    
+}
+
+.item:nth-child(1){
+    background-color: rgba(249, 165, 180, 0.959);
+}
+
+.item:nth-child(2){
+    background-color: rgba(119, 186, 155, 0.959);
+}
+
+.item:nth-child(3){
+    background-color: rgba(255, 221, 149, 0.959);
+}
+
+.item:nth-child(4){
+    
+    background-color: rgba(255, 221, 149, 0.959);
+   
+}
+
+.item:nth-child(5){
+   
+    background-color: rgba(249, 165, 180, 0.959);
+}
+
+.item:nth-child(6){
+    background-color: rgba(119, 186, 155, 0.959);
+}
+
+.titulo-item{
+    text-align: center;
+    color: white;
+    font-size: 26px;
+}
+
+.imag-item{
+    width: 80%;
+    height: 150px;
+    margin-left: 10%;
+    margin-right: 25px;
+    
+}
+
+.footer-page{
+    text-align: center;
+    color: white;
+    background:rgba(0, 194, 203, 0.863); 
 }

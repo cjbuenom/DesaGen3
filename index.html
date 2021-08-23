@@ -4,23 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Otro ejemplo</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
+
+<!--
+    El objetivo de esta tarea es poder realizar la página como está establecida en el PDF.
+Las reglas son las siguientes:
+
+    Utilizar solamente Flexbox para poder posicionar los elementos.
+    Pueden utilizar todas las etiquetas HTML de su preferencia.
+    Los estilos CSS tienen que estar sobre su hoja separada (estilos.css)
+    Para ocupar estilos solo usar Id o Class para sus elementos elementos HTML. 
+    Los colores e imágenes son totalmente libres.
+    La tarea se tiene que entregar por GitHub.
+    Quedo atento a sus comentarios.
+-->
+
 <body>
-    <header class="cabecera">
-        <nav>
-            <ul>
-                <li>contactanos</li>
-                <li>Comprame</li>
-                <li>llamame</li>
+    <header>
+        <nav class="menu-botones">
+            <a class="Logotipo" href=""></a>
+            <img class="img-logo" src="./img/logotipo.png" alt="">
+            <ul class="menu-link-btns">
+                <li class="btns-menu" href="">Home</li>
+                <li class="btns-menu" href="">Contacto</li>
+                <li class="btns-menu" href="">Nosotros</li>
             </ul>
         </nav>
     </header>
-    <header>
-        <h1>Scalab academy</h1>
-    </header>
-    este es otro ejemplo 
-    <b>hola Mundo</b>
+
+    <div class="contenedorPrincipal">
+        <section class="section-principal">
+            <h1 class="titulo-section">Venta</h1>
+            <figure>
+                <img src="./img/img-principal.PNG" alt="" class="imp-principal">
+            </figure>
+        </section>
+    </div>
+    
+
+    <main>
+        <section class="section-contenido">
+            <h1 class="titulo-section">
+                Ropa y Accesorios
+            </h1>
+            <div class="contenedor">
+                <div class="item">
+                    <h5 class="titulo-item">Trajes de baño</h5>
+                    <figure>
+                        <img class="imag-item" src="./img/trajes-bano.jpg" alt="">
+                    </figure>
+                </div>
+                <div class="item">
+                    <h5 class="titulo-item">Vestidos damas</h5>
+                    <figure>
+                        <img class="imag-item" src="./img/vestido-dama.jpg" alt="">
+                    </figure>
+                </div>
+                <div class="item">
+                    <h5 class="titulo-item">Accesorios damas</h5>
+                    <figure>
+                        <img src="./img/accesoriosDamas.jpg" alt="" class="imag-item">
+                    </figure>
+                </div>
+                <div class="item">
+                    <h5 class="titulo-item">Temporada verano</h5>
+                    <figure>
+                        <img src="./img/verano.jpg" alt="" class="imag-item">
+                    </figure>
+                </div>
+                <div class="item">
+                    <h5 class="titulo-item">Temporada invierno</h5>
+                    <figure>
+                        <img src="./img/invierno.jpg" alt="" class="imag-item">
+                    </figure>
+                </div>
+                <div class="item">
+                    <h5 class="titulo-item"> Zapatos</h5>
+                    <figure>
+                        <img src="./img/zapatos.jpg" alt="" class="imag-item">
+                    </figure>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <h1 class="footer-page">Copyright. Cristian Bueno 2021</h1>
+        </div>
+        
+    </footer>
 </body>
+
 </html>
