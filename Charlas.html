@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investigacion</title>
+    <link rel="stylesheet" href="/css/style-home.css">
+    <link rel="stylesheet" href="/css/style-form.css">
+    <script src="js/formCharlas.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="js/scripts.js"></script>
+</head>
+<body>
+    <div id="divcabecera">   
+    </div>  
+    <script>
+     $(function(){
+       $("#divcabecera").load("cabNav.html");
+     });
+     </script>
+
+    <!-- Formulario contanto para investigacion-->
+    <div class="container-formulario">
+        <div class="contenedor-titulo-form">
+            <a class="title-form">Formulario de Solicitud de Charlas online</a>
+        </div> 
+        <form id="form-charla" action="">
+        <section class="description-form">
+            <div class="element">
+                    <label for="">Nombre de Quien Solicita la charla</label>
+                    <input type="text"  placeholder="Ingresa tu nombre" id="name">
+            </div>
+            <div class="element">               
+                    <label for="">A Quien va dirigida la charla</label>
+                    <select id="list-dirigida">
+                        <option value="1">Seleccione Opcion</option>
+                        <option value="2">Amigos</option>
+                        <option value="3">Automatizadores</option>
+                        <option value="4">QAs</option>
+                        <option value="5">Equipos TI</option>
+                    </select>              
+            </div>
+            <div class="element">              
+                    <label for="">Numero de telefono para contacto</label>
+                    <input type="number" placeholder="Ingresa Numero de contacto" id="tel">             
+            </div>
+            <div class="element">                
+                    <label for="">Descripcion del caso de uso</label>
+                    <textarea placeholder="Describe en pocas palabras el tema de interes, tu aplicativo, la relacion con la charla y quienes asistiran" name="" id="Descripcioncaso" cols="30" rows="10"></textarea>
+           </div>
+            <div class="element">        
+                <label for="">Cantidad de Participantes 5 es el limite para todas las charlas.</label>
+                <button class="btn" id="myBtn" onmouseover="ValidarDatos()" onclick="mostrarAlertaEnviado()"> <i class="fas fa-address-book"></i> Enviar datos</button>
+            </div>
+        </section> 
+        </form>
+    </div>
+
+    <div class="container-comentarios">
+        <div class="contenedor-titulo-form">
+            <a class="title-form">Comentarios</a>
+        </div> 
+        <div class="element">        
+            <button class="btn" id="myBtn1"  onclick="addComentario()"> <i class="fas fa-address-book"></i> Agregar Comentario</button>
+        </div>
+        <section class="description-Comentario">
+            <div class="contenedor-titulo-Coment">
+                <a class="title-Coment" id="aComentInit" >pruebas funcionales</a>
+            </div>                
+            <p id="pComentInit">
+                Nos permiten llevar a cabo gran numero de flujos y validaciones funcionales en cuanto a las historias desarrollas
+            </p>
+        </section>
+        <div class="section-comentarios" id="divcomentarios">
+                
+        </div>
+    </div>
+    
+    <div id="myModalComentarios" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="formulario">
+                <form action="/action_page.php" class="element" id="EmergenteComentario">
+                  <label for="Tcomentario">Titulo del Comentario</label>
+                  <input type="text" id="ptitle" name="title-comen" placeholder="titulo Comentario">
+                  <label for="Ccomentario">Comentario</label>
+                  <textarea placeholder="Escribe tu comentario" name="" id="textoComentario" cols="30" rows="10"></textarea>
+                
+                  <input class="btn" onclick="addComentario()" type="button" value="Comentar">
+                </form>
+              </div>
+              
+        </div>
+
+    </div>
+
+
+    <img src="images/mujeres.jpeg" alt="">
+
+    <footer class="contenedor-Footer-Principal">
+        <h1 class="footer-section">Proyecto final Desarrollo Web - Cristian bueno 2021 - Scalab Academy </h1>
+    </footer>
+
+    <script src="js/modal.js"></script>
+    
+</body>
+</html>

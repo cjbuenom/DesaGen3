@@ -1,0 +1,33 @@
+
+.contenedor-titulo-etapa {
+    background-color: rgba(46, 60, 216, 0.9);  
+    margin: 2% 15%;
+}
+
+.title-etapa{
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.993);
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+
+
+.Description-etapa > p{
+    display: flex;
+    margin: 2% 15%;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.993);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    background-color: rgba(252, 252, 252, 0.9);
+}
+
+.Description-etapa > a{
+    display: flex;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.993);
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

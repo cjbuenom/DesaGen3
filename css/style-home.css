@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor-cabecera{
+    flex-wrap: wrap;
+    background-color: rgba(110, 208, 238, 0.9);
+}
+.cabecera-section{
+    color: white;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+    
+}
+
+.menu-botones{
+    flex-direction: row;
+    position: relative;
+    align-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(110, 208, 238, 0.9);
+}
+
+.btns-menu{
+    position: relative;    
+    padding: 10px 2rem; 
+    display:block; 
+    color: white;
+    font-size: 22px;
+    transition: .4s all ease-in-out;
+    cursor: pointer;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.btns-menu > a {
+    text-decoration: none;
+    color:white;
+}
+
+.menu-link-btns > li:nth-child(1) {
+    
+    background-color: rgba(100, 230, 128,0.9);
+}
+
+.menu-link-btns > li:nth-child(2) {
+    background-color: rgba(46, 60, 216, 0.9);
+}
+
+.menu-link-btns > li:nth-child(3) {
+    background-color: rgba(222, 39, 39, 0.9);
+}
+
+.menu-link-btns > li:nth-child(4) {
+    background-color: rgba(200, 36, 218, 0.9);
+}
+.menu-link-btns > li:nth-child(5) {
+    background-color: rgba(218, 191, 36, 0.9);
+}
+
+
+.btns-menu:hover{
+    box-shadow: 0 -5px 0 0 rgb(29, 22, 22) inset;
+    cursor: pointer;
+}
+.menu-link-btns{
+    text-decoration: none;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+.imagen-home {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+  
+.Description-home > p{
+    margin: 2% 15%;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.993);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    background-color: rgba(252, 252, 252, 0.9);
+}
+
+.Description-home > a{
+    display: flex;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.993);
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.title-home{
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.993);
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(100, 230, 128,0.9);
+    margin: 2% 15%;
+    text-align: center;
+  }
+
+.Video-Principal{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(252, 252, 252, 0.9);
+    flex-wrap: wrap;
+    
+}
+
+.Frame-videoPrin{
+    width: 490px;
+    height: 300px;
+}
+
+
+
+.contenedor-Footer-Principal{
+    background-color: rgba(110, 208, 238, 0.9);
+    
+}
+
+.footer-section{
+    flex-wrap: wrap;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mobil-uno{
+    display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    .contenedor-cabecera{
+        display: none;
+    }
+
+    .cont-mobil{
+        width: 100%;
+        display: block;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+    }
+
+    .mobil-uno{
+        display: block;
+    }
+    
+
+    .iconos{
+        width: 40%;
+        height: 200px;
+        border: 1px solid rgb(255, 255, 255);
+        box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.39);
+        margin: 20px 5px 20px 5px;
+        border-radius: 25px 0;
+    }
+}
+
+
+.mobil-uno > li{
+    display: block;
+    float: left;
+    list-style: none;
+    height: 30px;
+    overflow: hidden;
+}
+
+.mobil-uno > li:hover{
+    height: auto;
+}
+
+.mobil-dos{
+    background-color: rgb(255, 255, 255);
+}
+
+.mobil-dos > li{
+    list-style: none;
+    margin: 0 2px 3px 0;
+}
+
+.mobil-dos a{
+    text-decoration: none;
+    color: black;
+    margin: 3px 2px 3px 0;
+}
+
+.mobil-uno > li > img{
+    width: 30px;
+    height: 20px;
+    padding: 5px 0 0 0;
+}
+
+
+.mobil-uno{
+    background-color: #0c0c0c00;
+    height: 35px;
+    color: black;
+    font-size: 13px;
+}
+
+.lis-redes-mobil{
+    height: auto;
+    text-decoration: none;
+    padding: 5px 2px 0 0;
+}
+
+.redes-mobiles{
+    text-decoration: none;
+    width: 18px;
+    height: 18px;
+    padding: 5px 4px 0 2px;
+}
+
+.redes-mobiles:hover{
+    cursor: pointer;
+    transition: all .3s ease;
+    transform: scale(1.2)
+}
+
+.arbol:hover{
+    cursor: pointer;
+}
+
+.lis-mobil:hover{
+    color: yellowgreen;
+}
